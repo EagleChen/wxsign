@@ -122,7 +122,7 @@ func getResponse(url string, key string) (string, error) {
 	}
 
 	var result map[string]interface{}
-	if err = json.Unmarshal(body, result); err != nil {
+	if err = json.Unmarshal(body, &result); err != nil {
 		return "", err
 	}
 
