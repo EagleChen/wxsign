@@ -1,4 +1,4 @@
-package signature
+package wxsign
 
 import (
 	"crypto/sha1"
